@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration form</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+  <body>
+      <h1>Athlete Registration form</h1>
+      <p>Thank you for signing up at our club,please fill your information and we will contact<br> you shortly to complete your membership</p>
+      <br> 
+      <form action="/action_page.php">
+        <div>
+          <h2>Althelet's Name</h2>
+          <input type="text"  name="First name" id="First" placeholder="First name" required>
+          <input type="text"  name="Last name" id="Last" placeholder="Last name" required>
+          <br>
+           <label for="birthday">DOB:</label><br>
+           <input type="date" id="birthday" name="birthday">
+           <br>
+           <label for="email">Email:</label>
+           <input name="email" type="text" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" class="form-control" placeholder="Your Email" id="email" required="">
+           <br>
+           <label for=" Phone">Phone:</label>
+           <input name="Phone" type="text" pattern="[6-9]{1}[0-9]{9}" class="form-control" placeholder="Phone number" required="">
+           <label for="mailing">Mailing address:</label>
+            <input type="text"  name="street address" placeholder="street address" required>
+            <br>
+            <input type="text"  name="City" placeholder="City" required>
+            <input type="text"  name="Region" placeholder="Region" required>
+          <br>
+            <input type="text"  name="Postal/Zipcode" placeholder="Postal/Zipcode" required>
+            <input type="text"  name="Romania" placeholder="Romania" required>  
+          <br>
+            <label for="Gender">Gender:</label><br>
+            <input type="radio" id="Male" name="fav" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="fav" value="FemaleS">
+            <label for="Female">Female</label>
+          <br>
+            <label for="Height">Height:</label>
+            <input type="Height" id="Height" name="Height">
+            <label for="weight">weight:</label>
+            <input type="weight" id="weight" name="Height"><br>
+          <br>
+          <p>Does the althelete have a history of Chronic illness</p>
+          <input type="radio" id="yes" name="fav_language" value="yes">
+          <label for="yes">yes</label>
+          <input type="radio" id="No" name="fav_language" value="No">
+          <label for="No">No</label>
+          <br>
+          <p>Does the althelete have any allergies</p>
+          <input type="radio" id="yes" name="fav" value="yes">
+          <label for="yes">yes</label>
+          <input type="radio" id="No" name="fav" value="No">
+          <label for="No">No</label>
+          <br>
+          <input type="submit" id="register" name="" value="Register">
+          </form>
+         </div>
+</html>         
+
+
+
+
+
+
+        
+         
